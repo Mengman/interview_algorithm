@@ -1,4 +1,4 @@
-// 给定一个n x m的矩阵，如何实现转圈答应？
+// 给定一个n x m的矩阵，如何实现转圈矩阵？
 
 public class RotatePrinter{
 	public static void rotate(int[][] matrix) {
@@ -30,8 +30,8 @@ public class RotatePrinter{
 			for(int j = 0; j != matrix[0].length; j++) {
 				System.out.print(matrix[i][j] + " ");
 			}
+			System.out.println();
 		}
-		System.out.println();
 	}
 	
 	public static void main(String[] args){
